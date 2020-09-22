@@ -10,7 +10,7 @@ A machine learning pipeline will be built to categorize these events so that the
 There are two components in this project.
 
 1. ETL Pipeline
-In a Python script, process_data.py, is stored a data cleaning pipeline that:
+In a Python script, process_data.py (or Jupyter Notebook "ETL Pipeline Preparation"), is stored a data cleaning pipeline that:
 
     Loads the messages and categories datasets
     Merges the two datasets
@@ -18,7 +18,7 @@ In a Python script, process_data.py, is stored a data cleaning pipeline that:
     Stores it in a SQLite database
 
 2. ML Pipeline
-In a Python script, train_classifier.py, is stored a machine learning pipeline that:
+In a Python script, train_classifier.py (or Jupyter Notebook "ML Pipeline Preparation"), is stored a machine learning pipeline that:
 
     Loads data from the SQLite database
     Splits the dataset into training and test sets
